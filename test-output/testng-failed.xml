@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="org.good1.FaceBookTestNG">
+        <methods>
+          <include name="VerifyURLTC2"/>
+          <include name="EndDate"/>
+          <include name="LaunchTheApplicationTC1"/>
+          <include name="LoginWithoutDataTC4"/>
+          <include name="StartDate"/>
+          <include name="LaunchTheBrowser"/>
+          <include name="VerifyTitleTC3"/>
+          <include name="CloseTheBrowser"/>
+        </methods>
+      </class> <!-- org.good1.FaceBookTestNG -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

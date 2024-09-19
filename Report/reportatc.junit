@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="209.459" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="Validate the add to cart feature" name="Validate whether the cart have all added product - #1.1" time="73.705">
+<system-out><![CDATA[
+Given Navigate to amazon home page..........................................passed
+When Search product by entering keyword "hand gloves" in the search bar.....passed
+And Click on the search button..............................................passed
+And Select any product from the list........................................passed
+And Switch the window to selected product...................................passed
+And Add the product to the cart.............................................passed
+Then Verify whether the added product is captured in my cart................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate the add to cart feature" name="Validate whether the cart have all added product - #1.2" time="74.03">
+<system-out><![CDATA[
+Given Navigate to amazon home page..........................................passed
+When Search product by entering keyword "Sanitizer" in the search bar.......passed
+And Click on the search button..............................................passed
+And Select any product from the list........................................passed
+And Switch the window to selected product...................................passed
+And Add the product to the cart.............................................passed
+Then Verify whether the added product is captured in my cart................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate the add to cart feature" name="Validate whether the cart have all added product - #1.3" time="60.805">
+<system-out><![CDATA[
+Given Navigate to amazon home page..........................................passed
+When Search product by entering keyword "Keyboard" in the search bar........passed
+And Click on the search button..............................................passed
+And Select any product from the list........................................passed
+And Switch the window to selected product...................................passed
+And Add the product to the cart.............................................passed
+Then Verify whether the added product is captured in my cart................passed
+]]></system-out>
+</testcase>
+</testsuite>

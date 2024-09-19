@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="54.803" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="To validate the account creation of the fb application" name="To create new account" time="32.493">
+<system-out><![CDATA[
+When To launch url of fb application........................................passed
+And To click the create new account button..................................passed
+And To pass first name in first name text box...............................passed
+And To pass second name in second name text box.............................passed
+And To pass mobileno or email in email text box.............................passed
+And To create new password using new password text box......................passed
+And To select date from date field of DOB...................................passed
+And To select month from month field of DOB.................................passed
+And To select year from year field of DOB...................................passed
+And To click the radio button of gender field...............................passed
+And To click the signup button..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate Amazon login functionality" name="To validate the positive and negative combination of amazon login functionlality - #1.1" time="10.569">
+<system-out><![CDATA[
+Given User has to hit the gmail url.........................................passed
+And User has to enter the data "john@gmail.com" in email field..............passed
+And User has to enter the data "Something" in password field................passed
+Then User has to click next button..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate Amazon login functionality" name="To validate the positive and negative combination of amazon login functionlality - #1.2" time="10.794">
+<system-out><![CDATA[
+Given User has to hit the gmail url.........................................passed
+And User has to enter the data "peter@gmail.com" in email field.............passed
+And User has to enter the data "32323" in password field....................passed
+Then User has to click next button..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
